@@ -64,13 +64,14 @@ h2
 }
 .background-set
 {
-    border: 1px solid black;
+    
     background-image: url(background.png);
     background-size:100%;
     background-repeat: no-repeat;
     height: 250px;
     width: 70%;
     margin: auto;
+    padding-top: 20px;
 }
 h3
 {
@@ -96,9 +97,22 @@ h3
     height: 40px;
     width: 40%;
     margin: auto;
-
+}
+h4
+{
+    font-size: 30px;
+}
+.icon-img
+{
+    display: inline-block;
+    height: 50px;
+    width: 40px;
+}
+.footer
+{
+    
+    text-align: center;
+    width: 25%;
+    margin: auto;
    
-    
-
-    
 }
