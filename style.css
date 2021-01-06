@@ -1,6 +1,15 @@
 body
 {
     margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p
+{
+    color: rgb(96, 115, 139);
+}
+.name-colour
+{
+    color: rgb(180, 111, 65);
 }
 h1
 {
@@ -30,16 +39,20 @@ h2
 .button
 {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px;
-    width: 50px;
-    border: 1px solid black;
+    width: 40px;
+    background-color: rgb(238, 154, 98);
+    color: white;
+    border-radius: 3px;
+    box-shadow: 5px 5px 15px rgb(20, 20, 20);
+    
     
 }
 .first-background
 {
     background-color: rgb(221, 238, 243);
-    height: 550px;
+    height: 600px;
     
    
 }
@@ -65,7 +78,7 @@ h2
 .background-set
 {
     
-    background-image: url(background.png);
+    background-image: url(images/background.png);
     background-size:100%;
     background-repeat: no-repeat;
     height: 250px;
@@ -86,7 +99,7 @@ h3
     width: 40%;;
     padding: 10px;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 60px;
     float: left;
     
     
@@ -96,7 +109,28 @@ h3
     display: inline-block;
     height: 40px;
     width: 40%;
+    
+}
+.center
+{
+    text-align: center;
+    width: 70%;
     margin: auto;
+    height: 400px;
+    
+}
+.border
+{
+    
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+    border-left: 5px solid;
+    border-image: linear-gradient(150deg, black, white);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 20px gray;
+    background-color: rgb(212, 212, 212);
 }
 h4
 {
@@ -110,9 +144,10 @@ h4
 }
 .footer
 {
-    
-    text-align: center;
-    width: 25%;
-    margin: auto;
    
+    height: 200px;
+    text-align: center;
+    width: 30%;
+    padding:70px;
+    margin: auto;
 }
